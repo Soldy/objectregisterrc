@@ -1,0 +1,25 @@
+{
+  "name": "objectRegisterrc",
+  "version": "0.0.1",
+  "description": "object register for agent base code",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Soldy/objectregisterrc.git"
+  },
+  "keywords": [],
+  "author": "Soldy",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/Soldy/objectregisterrc/issues"
+  },
+  "homepage": "https://github.com/Soldy/objectregisterrc#readme",
+  "devDependencies": {
+    "interactiveConsole": "0.0.7-alpha0",
+    "nanoTest": "^0.9.9-alpha-5",
+    "eslint": "^7.9.0"
+  }
+}
