@@ -1,6 +1,6 @@
 {
-  "name": "objectRegisterrc",
-  "version": "0.0.1",
+  "name": "objectregisterrc",
+  "version": "0.0.2",
   "description": "object register for agent base code",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,6 @@
   "homepage": "https://github.com/Soldy/objectregisterrc#readme",
   "devDependencies": {
     "interactiveConsole": "0.0.7-alpha0",
-    "nanoTest": "^0.9.9-alpha-5",
-    "eslint": "^7.9.0"
+    "nanoTest": "^0.9.9-alpha-5"
   }
 }
