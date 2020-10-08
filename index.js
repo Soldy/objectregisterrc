@@ -7,7 +7,9 @@ const registerBase = function(){
         return true;
     }
     /*
-    * @public
+    *  @param {string} name
+    *  @public
+    *  @var {mixed} false or version
     */
     this.version = function(name){
          if(typeof objectDb[name] === 'undefined')
@@ -15,7 +17,8 @@ const registerBase = function(){
          return objectDb[name].version;
     }
     /*
-    * @public
+    *  @param {string} name
+    *  @public
     */
     this.get = function(name){
          if(typeof objectDb[name] === 'undefined')
@@ -23,7 +26,9 @@ const registerBase = function(){
          return objectDb[name].object;
     }
     /*
-    * @public
+    *  @param  {string} name
+    *  @public
+    *  @var {boolean} result
     */
     this.check = function(name){
          if(typeof objectDb[name] !== 'undefined')
@@ -31,7 +36,11 @@ const registerBase = function(){
          return false;
     }
     /*
-    * @public
+    *  @param  {string} name
+    *  @param  {string} version
+    *  @param  {object} object
+    *  @public
+    *  @var {boolean} result
     */
     this.add = function(name, version, object){
          if(typeof objectDb[name] !== 'undefined')
