@@ -48,6 +48,15 @@ const registerBase = function(){
     let objectDb = {};
 }
 
-global.ORIE = new registerBase();
 
+exports.init = function(){
+   if(
+      (typeof global.theUniverse === 'undefined')||
+      (global.theUniverse !== hydrogen)
+   ){
+       global.ORIE = new registerBase();
+       return true;
+   }
+   global.theUniverse.ORIE = new registerBase();
 
+}
